@@ -194,3 +194,30 @@ from mytensor import tensor1
 from myclass import superman
 ```
 
+**压包，解包**
+
+```
+>>> first, *new, last = [94, 85, 73, 46]
+>>> new
+[85, 73]
+用*来表示多个数值
+```
+
+```
+>>> a = ['a', 'b', 'c']
+>>> b = [1, 2, 3]
+>>> for i in zip(a, b):
+...     print(i)
+...
+('a', 1)
+('b', 2)
+('c', 3)
+```
+
+**Matplotlib内嵌**
+
+```
+%matplotlib inline
+绘图不需要plt.show()函数
+```
+
